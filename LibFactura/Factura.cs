@@ -13,7 +13,7 @@ namespace LibFactura
         public Empleado Empleado { get; set; }
 
         public double Iva { get; set; }
-        public List<DetalleFactura> DetallesFacturas { get; set; }
+        public List<DetalleFactura> DetallesFacturas { get; set; }  
 
         public Factura(double iva)
         {

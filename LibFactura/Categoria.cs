@@ -11,7 +11,7 @@ namespace LibFactura
     {
         public List <Producto> Productos { get; set; }
 
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } 
 
         public Categoria(string nombre)
         {

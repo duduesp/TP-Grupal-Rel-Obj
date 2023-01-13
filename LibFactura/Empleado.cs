@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibFactura
 {
-    public class Empleado:Persona
     {
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
         public int Legajo { get; set; }
-        public Empleado(string nombre, string apellido, int dni, int legajo) : base(nombre, apellido, dni)
-        {
-            Legajo = legajo;
-        }
-        public List<Factura> Facturas { get; set; }
     }
 }
